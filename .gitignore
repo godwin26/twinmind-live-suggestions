@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Java / Maven
+target/
+*.class
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+.vite/
+Frontend/src/assets/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+.github/java-upgrade/
+
+# Logs
+*.log
