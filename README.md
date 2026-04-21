@@ -117,6 +117,8 @@ mvn clean package
 java -jar target/live-suggestions-backend-0.0.1-SNAPSHOT.jar
 ```
 
+The backend also includes a `Dockerfile` for platforms such as Render. The container uses Java 21 and respects the platform-provided `PORT` environment variable through Spring Boot configuration.
+
 Frontend deploy commands:
 
 ```bash
