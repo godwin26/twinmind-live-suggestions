@@ -4,8 +4,9 @@ Web app for the TwinMind live suggestions assignment. The app listens to microph
 
 ## Deliverables
 
-- Deployed app URL: TODO
-- GitHub repository: TODO
+- Deployed app URL: https://twinmind-live-suggestions-azure.vercel.app
+- GitHub repository: https://github.com/godwin26/twinmind-live-suggestions
+- Deployed backend URL: https://twinmind-live-suggestions-production.up.railway.app
 
 ## Stack
 
@@ -90,6 +91,11 @@ This project is split into two deployable apps:
 
 - Backend: Spring Boot API in `Backend/`
 - Frontend: Vite static app in `Frontend/`
+
+Current deployment:
+
+- Backend: Railway
+- Frontend: Vercel
 
 Recommended simple deployment path:
 
@@ -245,6 +251,6 @@ The exported JSON does not include the raw Groq API key.
 - [x] Manual suggestion refresh
 - [x] Automatic suggestion refresh while recording
 - [x] Click suggestion to open detailed chat answer
-- [ ] Deployment URL added above
-- [ ] GitHub repository URL added above
-- [ ] Final real Groq API key test on deployed app
+- [x] Deployment URL added above
+- [x] GitHub repository URL added above
+- [x] Final real Groq API key test on deployed app
